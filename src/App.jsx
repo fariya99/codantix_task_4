@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CustomButton from './components/CustomButton';
-
+import Services from './components/Services';
 function App() {
   const handleClick = () => alert('Button clicked!');
 
@@ -11,12 +11,18 @@ function App() {
       <Header />
       <main className="flex-grow max-w-4xl mx-auto px-6 py-12 flex flex-col items-center justify-center text-center space-y-6">
         <h2 className="text-3xl md:text-4xl font-bold tracking-wide">
-          Welcome to My Tailwind React App
+          Welcome to Codantix
         </h2>
         <p className="max-w-xl text-gray-600 text-lg leading-relaxed">
-          This is a beautifully styled React app using Tailwind CSS. Enjoy the smooth design, responsiveness, and accessibility.
+           We craft modern, user-friendly solutions for your business – blending design, technology, and strategy.
         </p>
         <CustomButton label="Click Me" onClick={handleClick} />
+       
+  
+  
+  <Services />
+
+
       </main>
       <Footer />
     </div>
